@@ -1,4 +1,3 @@
-//Use to instantiate app, connect factory & controllers and configure app.
 var app = angular.module('palindromeAngularApp', ['palindromeAngularApp.controllers', 'ngRoute']);
 
 app.config(['$routeProvider', function($routeProvider) {
